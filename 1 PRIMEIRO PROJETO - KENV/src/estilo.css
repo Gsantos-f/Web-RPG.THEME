@@ -1,0 +1,683 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: Windlass;
+    src: url(/Windlass.ttf);
+}
+@font-face {
+    font-family: Sketch Gothic School;
+    src: url(/Sketch\ Gothic\ School.ttf);
+}
+@font-face {
+    font-family: Ancient Medium;
+    src: url(/Ancient\ Medium.ttf);
+}
+@font-face {
+    font-family: DUKEPLUS;
+    src: url(/DUKEPLUS.TTF);
+}
+title{
+    font-family: 'Windlass';    
+}
+body{
+    background-color: rgb(219, 255, 250);
+}
+/* cabeçalho */
+.cabecalho {    
+    background-color: rgba(0, 178, 209, 0.973);
+    border-bottom: solid 5px;
+    width: 100%;
+    display: flex;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-color: rgb(62, 160, 75);
+}
+/* icone d20 */
+.d20 img{
+    width: 100px;
+    margin: 5px;
+}
+/* titulo */
+.titulo {
+    padding: 1pc;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'windlass'; 
+}
+/* lista */
+.l1 {
+    padding: 0 10px;
+    background-color: rgba(62, 160, 75, 0.801);
+    margin-right: 15px;  
+    padding: 10px 10px;
+    border-radius: 0 20% 0 20%;
+}
+.l1:hover {
+    background-color: rgba(241, 255, 111, 0.986); 
+    transition: all 1s;
+}
+.lista_botoes {
+    font-family: 'Windlass';
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    padding: 10px 10px;
+}
+.lista_botoes .l1 a {
+    text-decoration: none;
+    color: white;
+}
+
+/* imagem da mumia */
+.img_mumia1 img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-top: 25px;
+    border-top: solid  5px rgb(62, 160, 75);
+    border-bottom: solid  5px rgb(62, 160, 75);
+}
+.titulo_mumia{
+    position: absolute;
+    margin-top: 60px ;
+    color: rgba(140, 255, 217, 0.541);
+    width: 370px;
+    margin-left: 800px ;
+    font-family: 'windlass';
+    font-size: 30px; 
+}
+.texto_legenda {
+    position: absolute;
+    margin-top: 100px ;
+    color: rgba(140, 255, 217, 0.541);
+    width: 370px;
+    margin-left: 800px ;
+    font-family: 'windlass';
+    font-size: 15px;
+    text-align:center;
+}
+
+/* caixa de corte colorida */
+.caixacolorida {
+    display: block;
+    color: rgba(0, 255, 255, 0);
+    background-color: rgb(62, 160, 75);
+    width: 100%;
+    height: 100%;
+    padding: 20px 0px;
+}
+.caixacolorida2 {
+    display: inline-block;
+    color: rgba(0, 255, 255, 0);
+    background-color: rgb(11, 67, 77);
+    width: 100%;
+    height: 1200px;  
+}
+
+.pesquisa {
+    font-family: 'windlass';
+    padding-left: 10px ;
+    margin-left:50px ;
+    width: 300px;
+    background-color: rgba(28, 109, 71, 0.342);
+    font-style: italic;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 20% 0 20% 0;
+    border-right-color: rgb(38, 102, 57);
+    border-bottom-color: rgb(38, 102, 57);
+    color: white;
+}
+.butao {
+    font-family: 'windlass';
+    width: 30px;
+    background-color: rgba(28, 109, 71, 0.342);
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 40% 0 40% 0;
+    border-right-color: rgb(38, 102, 57);
+    border-bottom-color: rgb(38, 102, 57);
+    color: rgb(116, 116, 116);
+}
+.pesquisa:hover {
+    background-color: rgba(78, 255, 202, 0.986);
+    transition: all 2s;
+    border-right-color: rgba(26, 122, 139, 0.973);
+    border-bottom-color: rgba(26, 122, 139, 0.973);
+}
+.butao:hover {
+    background-color: rgba(78, 255, 202, 0.986);
+    border-right-color: rgba(26, 122, 139, 0.973);
+    border-bottom-color: rgba(26, 122, 139, 0.973);
+}
+.titulo_aventuras{
+    display: inline-block;
+    color: white;
+    margin-left: 400px;
+    font-family: 'windlass';
+    font-weight: bold;
+}
+.titulo_aventuras:hover {
+    color: rgba(92, 7, 7, 0.986);
+    transition: all .5s;
+}
+/* imagem das historias */
+.imghistoria1{
+    position: relative;
+}
+.imghistoria2{
+    position: relative;
+}
+.imghistoria3{
+    position: relative;
+}
+/* HISTORIA 1 */
+.moca1 img{
+    position: relative;
+    display: flex;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.733);
+    transition: all 4s;
+}
+.moca1 img:hover{
+    object-fit: cover;
+    object-position: bottom;
+}
+.historia1{
+    position: absolute;
+    text-align:justify;
+    color: rgba(255, 255, 255, 0.137);
+    top: 100px;
+    padding-left: 20px;
+    margin-right: 800px;
+    font-family: 'windlass';
+    transition: all 2s;
+}
+.historia1:hover{
+    color: rgba(255, 255, 255, 0.705);
+}
+.historia1 h3{
+    font-size: 30px;
+}
+/* HISTORIA 2 */
+.dragao img{
+    position: relative;
+    display: flex;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.808);
+    transition: all 4s;
+}
+.dragao img:hover{
+    object-fit: cover;
+    object-position: bottom;
+}
+.historia2{
+    position: absolute;
+    text-align:justify;
+    color: rgba(255, 255, 255, 0.137);
+    top: 100px;
+    padding-left: 20px;
+    margin-right: 800px;
+    font-family: 'windlass';
+    transition: all 2s;
+}
+.historia2:hover{
+    color: rgba(255, 255, 255, 0.705);
+}
+.historia2 h3{
+    font-size: 30px;
+}
+/* HISTORIA 3 */
+.arongueijo img{
+    position: relative;
+    display: flex;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.726);
+    transition: all 4s;
+}
+.arongueijo img:hover{
+    object-fit: cover;
+    object-position: bottom;
+}
+.historia3{
+    position: absolute;
+    text-align:justify;
+    color: rgba(255, 255, 255, 0.137);
+    top: 100px;
+    padding-left: 20px;
+    margin-right: 800px;
+    font-family: 'windlass';
+    transition: all 2s;
+}
+.historia3:hover{
+    color: rgba(255, 255, 255, 0.705);
+}
+.historia3 h3{
+    font-size: 30px;
+}
+
+/* titulo das raças */
+.racasdorpg h1{
+    justify-content: center;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: 'windlass';
+    font-weight: bold;
+    font-size: 30px;
+    padding: 12px 0px;  
+    background-color: rgb(38, 102, 57);
+}
+.racasdorpg h1:hover {
+    color: rgba(92, 7, 7, 0.986);
+    transition: all .5s;
+}
+/* raças */
+.racasdorpg .racas{
+    position: relative;
+    display: flex;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(4, 15, 4);   
+}
+/* anao */
+.racasdorpg .racas .anao img{
+    display: inline-block;
+    position: relative;
+    height: 305px;
+    width: 230px;
+    background-image: cover;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20% 0 20% 0;
+}
+.racasdorpg .racas .anao figcaption a{
+    text-decoration: none;
+    font-family: 'windlass';
+    color: white;
+    position:absolute;
+    bottom: 30px;
+    font-weight: bold;
+    padding-left: 10px ;
+}
+.racasdorpg .racas .anao figcaption a:hover{
+    color: rgba(92, 7, 7, 0.986);
+    transition: all .5s;
+}
+.racasdorpg .racas .anao{
+    margin-right: 20px;
+}
+/* humano */
+.racasdorpg .racas .humano img{
+    position: relative;
+    height: 305px;
+    width: 230px;
+    background-image: cover;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20% 0 20% 0;
+}
+.racasdorpg .racas .humano figcaption a{
+    text-decoration: none;
+    font-family: 'windlass';
+    color: white;
+    position:absolute;
+    bottom: 30px;
+    font-weight: bold;
+    padding-left: 10px ;
+}
+.racasdorpg .racas .humano figcaption a:hover{
+    color: rgba(92, 7, 7, 0.986);
+    transition: all .5s;
+}
+.racasdorpg .racas .humano{
+    margin-right: 20px;
+}
+/* demonio */
+.racasdorpg .racas .demon img{
+    position: relative;
+    height: 305px;
+    width: 230px;
+    background-image: cover;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20% 0 20% 0;
+}
+.racasdorpg .racas .demon figcaption a{
+    text-decoration: none;
+    font-family: 'windlass';
+    color: white;
+    position:absolute;
+    bottom: 30px;
+    font-weight: bold;
+    padding-left: 10px ;
+}
+.racasdorpg .racas .demon figcaption a:hover{
+    color: rgba(92, 7, 7, 0.986);
+    transition: all .5s;
+}
+/* ogro */
+.racasdorpg .racas .ogro img{
+    position: relative;
+    height: 305px;
+    width: 230px;
+    background-image: cover;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20% 0 20% 0;
+}
+.racasdorpg .racas .ogro figcaption a{
+    text-decoration: none;
+    font-family: 'windlass';
+    color: white;
+    position:absolute;
+    bottom: 30px;
+    font-weight: bold;
+    padding-left: 10px ;
+}
+.racasdorpg .racas .ogro figcaption a:hover{
+    color: rgba(92, 7, 7, 0.986);
+    transition: all .5s;
+}
+.racasdorpg .racas .ogro{
+    margin-right: 20px;
+}
+/* elfo */
+.racasdorpg .racas .elfo img{
+    display: flex;
+    position: relative;
+    height: 305px;
+    width: 230px;
+    background-image: cover;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20% 0 20% 0;
+}
+.racasdorpg .racas .elfo figcaption a{
+    text-decoration: none;
+    font-family: 'windlass';
+    color: white;
+    position:absolute;
+    bottom: 30px;
+    font-weight: bold;
+    padding-left: 10px ;
+}
+.racasdorpg .racas .elfo figcaption a:hover{
+    color: rgba(92, 7, 7, 0.986);
+    transition: all .5s;
+}
+.racasdorpg .racas .elfo{
+    margin-right: 20px;
+}
+/* classes do rpg */
+/* titulo das classes */
+.classesdorpg .classestitulo{
+    justify-content: center;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: 'windlass';
+    font-weight: bold;
+    font-size: 30px;
+    padding: 12px 0px;  
+    background-color: rgb(38, 102, 57);
+}
+.classesdorpg .classestitulo:hover {
+    color: rgba(92, 7, 7, 0.986);
+    transition: all .5s;
+}
+/* classes */
+.classesdorpg ul{
+    position: relative;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(4, 15, 4); 
+    border-bottom: 5px solid rgba(0, 0, 0, 0.445);
+}
+/* mago */
+.classesdorpg ul .mago1 {
+    display: flex;
+}
+.classesdorpg ul .mago img{
+    display: flex;
+    position: relative;
+    height: 305px;
+    width: 230px;
+    background-image: cover;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 10px;
+    border-radius: 50% 50% 50% 50%;
+    border: 2px solid rgba(205, 240, 247, 0.479);
+    transition: 2s;
+}
+.classesdorpg ul .mago img:hover{
+    height: 350px;
+    width: 275px;
+    transition: 2s;
+}
+.classesdorpg ul .mago figcaption {
+    color: rgba(140, 255, 217, 0.541);
+    margin-left: 60px;
+    margin-right: 100px;
+    margin-top: 20px;
+    font-family: 'windlass';
+    text-align: justify;
+}
+.classesdorpg ul .mago figcaption h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+/* barbaro */
+.classesdorpg ul .barbaro1{
+    display: flex;
+}
+.classesdorpg ul .barbaro img{
+    display: flex;
+    position: relative;
+    height: 305px;
+    width: 230px;
+    background-image: cover;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 10px;
+    border-radius: 0 0 50% 50%;
+    border: 2px solid rgba(205, 240, 247, 0.479);
+    transition: 2s;
+}
+.classesdorpg ul .barbaro img:hover{
+    height: 350px;
+    width: 275px;
+    transition: 2s;
+}
+.classesdorpg ul .barbaro figcaption{
+    color: rgba(140, 255, 217, 0.541);
+    margin-left: 60px;
+    margin-right: 100px;
+    margin-top: 20px;
+    font-family: 'windlass';
+    text-align: justify;
+}
+.classesdorpg ul .barbaro figcaption h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+/* assasino */
+.classesdorpg ul .assasino1{
+    display: flex;
+}
+.classesdorpg ul .assasino img{
+    display: flex;
+    position: relative;
+    height: 305px;
+    width: 230px;
+    background-image: cover;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 2px solid rgba(205, 240, 247, 0.479);
+    transition: 2s;
+}
+.classesdorpg ul .assasino img:hover{
+    height: 350px;
+    width: 275px;
+    transition: 2s;
+}
+.classesdorpg ul .assasino figcaption{
+    color: rgba(140, 255, 217, 0.541);
+    margin-left: 60px;
+    margin-right: 100px;
+    margin-top: 20px;
+    font-family: 'windlass';
+    text-align: justify;
+}
+.classesdorpg ul .assasino figcaption h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+/* xama */
+.classesdorpg ul .xama1{
+    display: flex;
+}
+.classesdorpg ul .xama img{
+    display: flex;
+    position: relative;
+    height: 305px;
+    width: 230px;
+    background-image: cover;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 10px;
+    border-radius: 0 0 50% 50%;
+    border: 2px solid rgba(205, 240, 247, 0.479);
+    transition: 2s;
+}
+.classesdorpg ul .xama img:hover{
+    height: 350px;
+    width: 275px;
+    transition: 2s;
+}
+.classesdorpg ul .xama figcaption{
+    color: rgba(140, 255, 217, 0.541);
+    margin-left: 60px;
+    margin-right: 100px;
+    margin-top: 20px;
+    font-family: 'windlass';
+    text-align: justify;
+}
+.classesdorpg ul .xama figcaption h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+/* caçador */
+.classesdorpg ul .cacador1{
+    display: flex;
+}
+.classesdorpg ul .cacador img{
+    display: flex;
+    position: relative;
+    height: 305px;
+    width: 230px;
+    background-image: cover;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 10px;
+    border-radius: 30% 0 30% 0;
+    border: 2px solid rgba(205, 240, 247, 0.479);
+    transition: 2s;
+}
+.classesdorpg ul .cacador img:hover{
+    height: 350px;
+    width: 275px;
+    transition: 2s;
+}
+.classesdorpg ul .cacador figcaption{
+    color: rgba(140, 255, 217, 0.541);
+    margin-left: 60px;
+    margin-right: 100px;
+    margin-top: 20px;
+    font-family: 'windlass';
+    text-align: justify;
+}
+.classesdorpg ul .cacador figcaption h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+/* rodapé */
+.rodape .inforodape .fundo img{
+    position: relative;
+    display: flex;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.733);
+    transition: all 4s;
+}
+.rodape .inforodape .fundo img:hover{
+    object-fit: cover;
+    object-position: top;
+}
+.inforodape{
+    position: relative;
+}
+.inforodape .textorodape{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.137);
+    top: 320px;
+    padding-left: 20px;
+    margin-right: 300px;
+    font-family: 'windlass';
+    transition: all 2s;
+}
+.textorodape:hover{
+    color: rgba(255, 255, 255, 0.705);
+}
+.textorodape h3{
+    font-size: 15px;
+}
+.textorodape2{
+    position: relative;
+}
+.inforodape1 h4{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.521);
+    padding-left: 20px;
+    margin-right: 300px;
+    font-family: 'windlass';
+    bottom: 200px;
+}
+.inforodape2 h4{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.521);
+    padding-left: 20px;
+    margin-right: 300px;
+    font-family: 'windlass';
+    bottom: 100px;
+}
+.inforodape3 h4{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.521);
+    padding-left: 20px;
+    margin-right: 300px;
+    font-family: 'windlass';
+    bottom: 150px;
+}
