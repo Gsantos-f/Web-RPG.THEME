@@ -130,6 +130,9 @@ body{
     border-bottom-color: rgb(38, 102, 57);
     color: white;
 }
+.pesquisa:focus {
+    outline: none;
+}
 .butao {
     font-family: 'windlass';
     width: 30px;
