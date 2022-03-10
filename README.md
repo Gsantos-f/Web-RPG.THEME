@@ -3,7 +3,7 @@
  <p> ▣ EN-US: In this project I developed a website to gain experience in my development in the Front-end area, on the page there is no special content in specific, there are more texts and random words that I chose to have a guide and dont stay lost in the project, in it my focus was the Html and CSS, making the structure and stylization of the site. The theme I chose to assemble and stylize the site as shown in the title is a "RPG" site with some topics, information and images. </p>
  
  ## ◉ 💻Technologies
- ▣ HTML
+ ▣ HTML</br>
  ▣ CSS
  
  ## ◉ 🖼️IMAGES
