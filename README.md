@@ -36,6 +36,6 @@
  
  ##
   
-<img  align="center" height="120px" src="https://github-readme-stats.vercel.app/api/pin/?username=gsantos-f&repo=Web-RPG.THEME">
+<img  align="center" height="120px" src="https://github-readme-stats.vercel.app/api/pin/?username=gsantos-f&repo=Web-RPG.THEME&theme=react">
  
 <img align="center" height="120px" src="https://c.tenor.com/cZlr0524pIsAAAAC/d20-dice.gif">
