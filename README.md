@@ -2,6 +2,8 @@
  <p> ▣ PT-BR: Neste projeto desenvolvi um website para ganhar experiencia no meu desenvolvimento na area de Front-end, na pagina não tem nenhum conteudo especial em especifico, são mais textos e palavras randomicas que optei para ter uma guia e n ficar tão perdido no projeto, nele meu foco foi o Html e Css, fazendo a estrutura e estilização do site. O tema que escolhi para fazer a montagem e estilização do site como mostra no titulo é um site de "RPG de mesa" ou "RPG de Console/pc" com alguns topicos, informações e imagens.   </p>
  <p> ▣ EN-US: In this project I developed a website to gain experience in my development in the Front-end area, on the page there is no special content in specific, there are more texts and random words that I chose to have a guide and dont stay lost in the project, in it my focus was the Html and CSS, making the structure and stylization of the site. The theme I chose to assemble and stylize the site as shown in the title is a "RPG" site with some topics, information and images. </p>
  
+ PAGE: https://gsantos-f.github.io/Web-RPG.THEME/
+ 
  ## ◉ 💻Technologies
  ▣ HTML</br>
  ▣ CSS
